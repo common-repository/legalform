@@ -1,0 +1,376 @@
+#legalforms-plugin .wizard {
+  overflow: visible;
+}
+#legalforms-plugin .wizard {
+  padding-right: 25px;
+}
+#legalforms-plugin .wizard:not(.material) {
+  padding: 32px;
+}
+#legalforms-plugin .wizard .option label {
+  font-weight: 200;
+}
+#legalforms-plugin .wizard .form-group.has-error .option label {
+  color: #a94442;
+}
+#legalforms-plugin .wizard .form-group {
+  position: relative;
+}
+#legalforms-plugin .wizard .form-group > .help {
+  display: block;
+  margin-right: 4px;
+  position: absolute;
+  right: -25px;
+  top: 45%;
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#legalforms-plugin .has-error .selectize-input {
+  border-color: #a94442 !important;
+}
+#legalforms-plugin .selectize-control .selectize-input {
+  vertical-align: top;
+}
+#legalforms-plugin .wizard .datepicker table {
+  width: 100%;
+}
+#legalforms-plugin .wizards-actions.template {
+  display: none;
+}
+#legalforms-plugin .selectize-dropdown.form-control {
+  min-height: auto !important;
+}
+#legalforms-plugin #doc-wizard .form-group .option label .required {
+  font-weight: bold;
+}
+#legalforms-plugin .likert tr:first-child {
+  height: 6em;
+}
+#legalforms-plugin .likert td {
+  position: relative;
+  width: 25px;
+}
+#legalforms-plugin .likert td:first-child {
+  width: auto;
+}
+#legalforms-plugin .likert td .likert-option {
+  max-width: 7em;
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  position: absolute;
+  bottom: 0;
+  left: 3px;
+  -webkit-transform: rotate(-50deg) translateX(10px, 10px);
+  -ms-transform: rotate(-50deg) translate(10px, 10px);
+  transform: rotate(-50deg) translate(10px, 10px);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+#legalforms-plugin .likert td:last-child .likert-option {
+  max-width: 5em;
+}
+#legalforms-plugin .likert-question {
+  padding-right: 1em;
+}
+#legalforms-plugin .material .form-group input,
+#legalforms-plugin .material .form-group textarea,
+#legalforms-plugin .material .form-group select,
+#legalforms-plugin .material .selectize-input {
+  font-family: "Proxima Nova", Montserrat, sans-serif;
+  font-weight: 300;
+}
+#legalforms-plugin .material .form-control {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+}
+#legalforms-plugin .material .form-group {
+  margin: 0;
+}
+#legalforms-plugin .material .form-group .form-control:focus,
+#legalforms-plugin .material .form-group .selectize-control {
+  box-shadow: none;
+}
+#legalforms-plugin .material .form-group:not(.has-error) .form-control:not(.selectize-dropdown):not(.selectize-control) {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 2px, rgba(0, 150, 136, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
+}
+#legalforms-plugin .material .has-error .check {
+  border-color: #f44336 !important;
+}
+#legalforms-plugin .material .has-error .checkbox label {
+  color: #f44336 !important;
+}
+#legalforms-plugin .material .has-error input,
+#legalforms-plugin .material .has-danger input {
+  color: #f44336 !important;
+  background-image: linear-gradient(to top, rgba(244, 67, 54, 0.6) 2px, rgba(0, 150, 136, 0) 2px), linear-gradient(to top, #f44336 1px, transparent 1px) !important;
+}
+#legalforms-plugin .material .has-error .input-group-addon,
+#legalforms-plugin .material .has-danger .input-group-addon {
+  border: none;
+  background: transparent;
+}
+#legalforms-plugin .material .is-focused .input-group-addon,
+#legalforms-plugin .is-focused .input-group-addon {
+  color: rgba(0, 0, 0, 0.8);
+}
+#legalforms-plugin .material .has-error label,
+#legalforms-plugin .material .has-danger label {
+  color: #f44336;
+}
+#legalforms-plugin .material .form-group.is-focused:not(.has-error) label.form-control-label {
+  color: rgba(0, 0, 0, 0.8);
+}
+#legalforms-plugin .material .form-group:hover:not(.is-focused) label.form-control-label {
+  color: rgba(0, 0, 0, 0.6);
+}
+#legalforms-plugin .material .form-group .selectize-control .selectize-input {
+  padding: 6px 0px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  background: transparent;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 1px, rgba(0, 150, 136, 0) 1px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
+}
+#legalforms-plugin .material .form-group .bmd-label-floating {
+  z-index: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 16px;
+}
+#legalforms-plugin .material .form-group.is-focused .bmd-label-floating {
+  max-height: 12px;
+}
+#legalforms-plugin .material .form-group .selectize-control .selectize-dropdown {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+#legalforms-plugin .material .dropdown-item.active,
+#legalforms-plugin .material .dropdown-item.active:focus,
+#legalforms-plugin .material .dropdown-item.active:hover {
+  background-color: #eeeeee;
+  color: #212121;
+}
+#legalforms-plugin .material {
+  counter-reset: step;
+  margin-top: 51px;
+  width: 100%;
+  padding-bottom: 15px;
+  background: #fff;
+}
+#legalforms-plugin .material label + .option {
+  padding-top: 5px;
+}
+#legalforms-plugin .material .progress {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+#legalforms-plugin .material .wizard-step {
+  display: block;
+  position: relative;
+  padding: 10px 0 10px 0;
+  min-height: 70px;
+  counter-increment: step;
+}
+#legalforms-plugin .material .wizard-step h3 {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  padding: 10px 50px;
+  line-heigt: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+#legalforms-plugin .material .wizard-step:before {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: bold;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: #8EC640;
+  background: radial-gradient(circle, #65d26a 0px, #65d26a 14px, #ffffff 15px, #65d26a 16px);
+  line-height: 34px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  vertical-align: 3px;
+  position: absolute;
+  z-index: 2;
+  left: 8px;
+  top: 18px;
+}
+#legalforms-plugin .material .wizard-step.active:before {
+  content: counter(step);
+  font-family: inherit;
+  line-height: 35px;
+  background: radial-gradient(circle, #0082FE 0px, #0082FE 13px, #fff 15px, #0082FE 16px);
+}
+#legalforms-plugin .material .wizard-step.active ~ .wizard-step:before {
+  content: counter(step);
+  font-family: inherit;
+  line-height: 35px;
+  background: radial-gradient(circle, #c2baba 0px, #c2baba 14px, #fff 15px, #c2baba 16px);
+}
+#legalforms-plugin .material .wizard-step:after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 5;
+  width: 2px;
+  height: 100%;
+  left: 24px;
+  top: 0;
+  background: linear-gradient(to bottom, #f0eded 0, #f0eded 14px, transparent 15px, transparent 59px, #f0eded 60px, #f0eded 100%);
+}
+#legalforms-plugin .material .wizard-step .wizzard-form {
+  margin: 5px 1px 10px 25px;
+  position: relative;
+  margin-bottom: 0px;
+  display: block;
+  padding: 0 30px 20px 20px;
+  height: auto;
+  border-radius: 4px;
+  display: none;
+}
+#legalforms-plugin .material .wizard-step.active .wizzard-form {
+  display: block;
+}
+#legalforms-plugin .material .wizzard-form .form-group label .required {
+  color: red;
+}
+#legalforms-plugin .material .wizard-step .wizards-actions {
+  display: none;
+}
+#legalforms-plugin .material .wizard-step .wizards-actions {
+  min-height: 60px;
+  padding: 10px 10px 10px 0;
+  width: 100%;
+}
+#legalforms-plugin .material .wizard-step.active .wizards-actions {
+  display: block;
+  min-height: 65px;
+}
+#legalforms-plugin .material .btn.btn-rounded {
+  border-radius: 22px;
+}
+#legalforms-plugin .material .btn.empty-background {
+  background: none;
+}
+#legalforms-plugin .material .btn-success.btn-outline {
+  border: 2px solid #4caf50;
+  color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+}
+#legalforms-plugin .material .btn-primary.btn-outline,
+#legalforms-plugin .material .btn-primary.btn-outline:focus {
+  border: 2px solid rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  background: rgba(0, 0, 0, 0) !important;
+}
+#legalforms-plugin .material .btn-primary.btn-outline:active,
+#legalforms-plugin .material .btn-primary.btn-outline:hover {
+  border-color: rgba(0, 0, 0, 0.95) !important;
+  color: rgba(0, 0, 0, 0.95) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+#legalforms-plugin .material .btn-primary.btn-outline:active,
+#legalforms-plugin .material .btn-primary.btn-outline.active {
+  border-color: #b87430;
+  color: #b87430;
+  box-shadow: none;
+  background: rgba(235, 162, 90, 0.4);
+}
+#legalforms-plugin .material .selectize-control.multi .selectize-input.input-active:after,
+#legalforms-plugin .material .selectize-control.multi .selectize-input:after,
+#legalforms-plugin .material .selectize-control.single .selectize-input.input-active:after,
+#legalforms-plugin .material .selectize-control.single .selectize-input:after {
+  content: "";
+}
+#legalforms-plugin .material .bootstrap-datetimepicker-widget.dropdown-menu {
+  opacity: initial;
+  transform: none;
+  transform-origin: none;
+  transition: none;
+}
+#legalforms-plugin .material label {
+  font-weight: 300;
+}
+#legalforms-plugin .material .form-group > label {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2;
+}
+#legalforms-plugin .material .form-group.has-danger .form-control,
+#legalforms-plugin .material .form-group.has-error .form-control {
+  box-shadow: none;
+}
+#legalforms-plugin .material .radio label,
+#legalforms-plugin .material .checkbox label {
+  padding-left: 2.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+}
+#legalforms-plugin .material .radio label input[type="radio"] ~ .bmd-radio-inner-circle,
+#legalforms-plugin .material .radio label input[type="radio"]:checked ~ .bmd-radio-inner-circle {
+  background-color: #757575;
+  border-color: #757575;
+}
+#legalforms-plugin .material .radio label input[type="radio"]:checked ~ .bmd-radio-outer-circle {
+  border-color: #757575;
+}
+#legalforms-plugin .material .checkbox label input[type="checkbox"]:checked + .checkbox-decorator .check,
+#legalforms-plugin .material .checkbox label input[type="checkbox"]:checked + .checkbox-decorator .check:before {
+  color: #757575;
+  border-color: #757575;
+}
+#legalforms-plugin .material .checkbox label .checkbox-decorator {
+  top: 6px;
+}
+#legalforms-plugin .material .selectize-dropdown {
+  padding: 0px;
+}
+#legalforms-plugin .material .selectize-dropdown [data-selectable] {
+  padding: 16px;
+  white-space: normal;
+}
+#legalforms-plugin .material .selectize-dropdown-content {
+  max-height: unset !important;
+}
+#legalforms-plugin .material .selectize-input {
+  min-height: 32px;
+  height: 32px;
+}
+#legalforms-plugin .material .selectize-input .item {
+  padding-top: 7px;
+  margin-bottom: 0px;
+  max-width: 95%;
+  width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#legalforms-plugin .material .label-addon {
+  margin-left: calc(1.75rem);
+}
+#legalforms-plugin .material .form-group textarea {
+  line-height: 1.8;
+}
+#legalforms-plugin .material .form-control + .input-group-addon:not(:first-child),
+#legalforms-plugin .material .form-control + .input-group-btn:not(:first-child) {
+  width: auto;
+}

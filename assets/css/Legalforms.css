@@ -1,0 +1,165 @@
+#legalforms-plugin {
+    background-color: initial;
+}
+
+#legalforms-plugin .wizard.material input[type="text"],
+#legalforms-plugin .wizard.material input[type="password"],
+#legalforms-plugin .wizard.material input[type="email"],
+#legalforms-plugin .wizard.material textarea {
+    padding: 0;
+    border-radius: 0 !important;
+}
+
+#legalforms-plugin .wizard.material input[type="text"]:focus,
+#legalforms-plugin .wizard.material input[type="password"]:focus,
+#legalforms-plugin .wizard.material input[type="email"]:focus,
+#legalforms-plugin .wizard.material textarea:focus {
+    border: none;
+    color: inherit;
+    box-shadow: none;
+}
+
+#legalforms-plugin #doc-wizard-login :before,
+#legalforms-plugin #doc-wizard-login :after {
+    display: none;
+}
+
+#legalforms-plugin .material {
+    margin-top: 0;
+}
+
+#legalforms-plugin .material .wizard-step > form {
+    display: none;
+}
+
+#legalforms-plugin .material .wizard-step.active > form,
+.material .wizard-step.active > .wizards-actions {
+    padding: 10px 50px;
+    display: block;
+}
+
+#legalforms-plugin .material .wizard-step:before {
+    font-family: "Font Awesome 5 Free";
+}
+
+#legalforms-plugin .material .radio,
+#legalforms-plugin .material .checkbox {
+    padding-left: 0;
+}
+
+#legalforms-plugin .material .likert .bmd-radio, 
+#legalforms-plugin .material .checkbox label .checkbox-decorator {
+    top: 0;
+}
+
+#legalforms-plugin #doc-wizard-login .btn-success,
+#legalforms-plugin #doc-wizard-register .btn-success {
+  margin-left: 5px;
+}
+
+#legalforms-plugin .doc-save {
+    margin-right: 5px;
+}
+
+#legalforms-plugin #doc-save-alert {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#legalforms-plugin div.wizard:not(.material) .btn-default {
+    border: 1px solid #ccc;
+}
+
+#legalforms-plugin .loader {
+    border: 2px solid #f0f0f0;
+    border-radius: 50%;
+    border-top: 2px solid #595959;
+    width: 16px;
+    height: 16px;
+    animation: spin 2s linear infinite;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#legalforms-plugin .modal-dialog {
+    top: 33%;
+}
+
+#legalforms-plugin .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#legalforms-plugin .progress {
+    height: 20px;
+    border-radius: 5px;
+}
+
+#legalforms-plugin .progress-bar {
+    opacity: 0;
+}
+
+#legalforms-plugin .likert {
+    border: none;
+}
+
+#legalforms-plugin .likert td {
+    border: none;
+    width: 40px;
+}
+
+#legalforms-plugin #doc-wizard-register.material .wizard-step::before, 
+#legalforms-plugin #doc-wizard-login.material .wizard-step::before,
+#legalforms-plugin #doc-wizard-forgot.material .wizard-step::before,
+#legalforms-plugin #doc-wizard-email.material .wizard-step::before {
+    display: none;
+}
+
+#legalforms-plugin #doc-wizard-register.material .wizard-step::after, 
+#legalforms-plugin #doc-wizard-login.material .wizard-step::after,
+#legalforms-plugin #doc-wizard-forgot.material .wizard-step::after,
+#legalforms-plugin #doc-wizard-email.material .wizard-step::after {
+    display: none;
+}
+
+#legalforms-plugin #doc-wizard-register.material h3, 
+#legalforms-plugin #doc-wizard-login.material h3,
+#legalforms-plugin #doc-wizard-forgot.material h3,
+#legalforms-plugin #doc-wizard-email.material h3 {
+    padding: 10px;
+}
+
+#legalforms-plugin #doc-wizard-register.material form, 
+#legalforms-plugin #doc-wizard-login.material form,
+#legalforms-plugin #doc-wizard-forgot.material form,
+#legalforms-plugin #doc-wizard-email.material form {
+    padding: 10px;
+}
+
+#legalforms-plugin #doc-wizard + #doc-wizard-actions {
+    display: none !important;
+}
+
+#legalforms-plugin #doc-wizard-register .help.password-toggle {
+    right: 5px;
+    font-size: 1.2rem;
+    padding-top: 3px;
+}
+
+#legalforms-plugin #doc-wizard-register.material .help.password-toggle {
+    padding-top: 20px;
+}
+
+#legalforms-plugin #legalforms-name {
+    width: 100%;
+}
